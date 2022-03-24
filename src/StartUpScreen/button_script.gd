@@ -15,6 +15,10 @@ func _ready():
 
 func _on_Button_mouse_entered():
 	grab_focus()
+	
+#This is a random comment - David Hawkins
+
+#Hello...
 
 #when you press on the button you get a path
 #else quit if theres nothing 
@@ -24,4 +28,4 @@ func _on_Button_Pressed():
 	else:
 		get_tree().quit()
 		
-#This is a random comment - David Hawkins
+
