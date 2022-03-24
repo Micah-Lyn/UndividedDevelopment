@@ -41,10 +41,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
 
 [node name="Final" parent="." instance=ExtResource( 1 )]
-margin_left = 679.0
-margin_top = 39.0
-margin_right = 834.0
-margin_bottom = 97.0
+margin_left = 673.0
+margin_top = 27.0
+margin_right = 828.0
+margin_bottom = 85.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -73,10 +73,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
 
 [node name="PerimeterActivity3" parent="." instance=ExtResource( 1 )]
-margin_left = 1028.0
-margin_top = 190.0
-margin_right = 1278.0
-margin_bottom = 263.0
+margin_left = 993.0
+margin_top = 176.0
+margin_right = 1243.0
+margin_bottom = 249.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -107,9 +107,9 @@ reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
 
 [node name="Area2" parent="." instance=ExtResource( 1 )]
 margin_left = 1050.0
-margin_top = 369.0
+margin_top = 368.0
 margin_right = 1255.0
-margin_bottom = 442.0
+margin_bottom = 441.0
 custom_colors/font_color_disabled = Color( 0.956808, 0.14306, 0.0336378, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
 toggle_mode = true
