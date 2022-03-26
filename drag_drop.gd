@@ -12,14 +12,9 @@ func _ready():
 # checks for mouse click
 func _on_Area2D_input_event(viewport, event, shape_idx):
 	if Input.is_action_just_pressed("click"):
-		if _is_top():
-			selected = true
+		selected = true
 
-func _is_top():
-	for node in get_tree().get_nodes_in_group("nodes"):
-		if node.get_index() > get_index():
-			return false
-	return true
+
 # physics for icon to follow the mouse
 func _physics_process(delta):
 	if selected:
