@@ -30,7 +30,7 @@ icon = ExtResource( 2 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
+reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Final" parent="." instance=ExtResource( 1 )]
 margin_left = 709.822
@@ -62,7 +62,7 @@ icon = ExtResource( 2 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
+reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="PerimeterActivity3" parent="." instance=ExtResource( 1 )]
 margin_left = 1029.82
@@ -78,7 +78,7 @@ icon = ExtResource( 2 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
+reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Area1" parent="." instance=ExtResource( 1 )]
 margin_left = 325.822

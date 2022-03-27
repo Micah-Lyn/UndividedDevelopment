@@ -1,10 +1,23 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
 [ext_resource path="res://CandyShop.png" type="Texture" id=2]
 [ext_resource path="res://assets/CALIBRI.TTF" type="DynamicFontData" id=3]
+[ext_resource path="res://src/StartUpScreen/EnterButton.gd" type="Script" id=4]
 
 [sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 36
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 25
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
 size = 30
 font_data = ExtResource( 3 )
 
@@ -17,10 +30,10 @@ z_index = -1
 texture = ExtResource( 2 )
 offset = Vector2( 1254.48, 534.223 )
 
-[node name="Button" parent="." instance=ExtResource( 1 )]
-margin_left = 914.0
+[node name="BackButton" parent="." instance=ExtResource( 1 )]
+margin_left = 902.0
 margin_top = 531.0
-margin_right = 1008.0
+margin_right = 996.0
 margin_bottom = 585.0
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -44,11 +57,69 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LineEdit" type="LineEdit" parent="."]
+[node name="EnterButton" type="Button" parent="."]
+margin_left = 781.0
+margin_top = 531.0
+margin_right = 875.0
+margin_bottom = 585.0
+custom_fonts/font = SubResource( 4 )
+text = "Enter"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CorrectWindowDialog" type="WindowDialog" parent="EnterButton"]
+margin_left = -719.0
+margin_top = -486.0
+margin_right = -183.0
+margin_bottom = -314.0
+window_title = "Correct!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="EnterButton/CorrectWindowDialog"]
+margin_right = 536.0
+margin_bottom = 172.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="EnterButton/CorrectWindowDialog"]
+anchor_left = 0.118
+anchor_top = 0.174
+anchor_right = 0.118
+anchor_bottom = 0.174
+margin_left = -0.248005
+margin_top = 0.0719986
+margin_right = 405.752
+margin_bottom = 73.072
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+text = "Ladies and gentlemen, we have a winner!"
+
+[node name="TestPopupDialog" type="PopupDialog" parent="."]
+anchor_left = -0.858
+anchor_top = -3.906
+anchor_right = -0.858
+anchor_bottom = -3.906
+margin_left = 134.0
+margin_top = 83.0
+margin_right = 388.0
+margin_bottom = 217.0
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "Hello there
+"
+}
+
+[node name="UserAnswerLineEdit" type="LineEdit" parent="."]
 margin_left = 533.0
 margin_top = 415.0
 margin_right = 998.0
 margin_bottom = 500.0
+custom_fonts/font = SubResource( 2 )
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
