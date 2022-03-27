@@ -6,7 +6,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Node2D" parent="." instance=ExtResource( 2 )]
+position = Vector2( 239, 296 )
 
 [node name="dropzone2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 541, 156 )
 
 [node name="dropzone" parent="." instance=ExtResource( 1 )]
+position = Vector2( 460, 317 )
