@@ -1,11 +1,65 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/Hardware.png" type="Texture" id=2]
+[ext_resource path="res://area_drop_zone.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Draggable_Area.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/clown.jpg" type="Texture" id=5]
+[ext_resource path="res://Draggable_Area.gd" type="Script" id=6]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Button" parent="." instance=ExtResource( 1 )]
-margin_left = 878.111
-margin_top = 525.24
-margin_right = 972.111
-margin_bottom = 579.24
+[node name="BackButton" parent="." instance=ExtResource( 1 )]
+margin_left = 913.0
+margin_top = 524.0
+margin_right = 1007.0
+margin_bottom = 578.0
+
+[node name="ChallengeBackground" type="Sprite" parent="."]
+position = Vector2( 826, 300 )
+scale = Vector2( 1.87281, 2.63158 )
+z_index = -1
+texture = ExtResource( 2 )
+
+[node name="Area2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="area_drop_zone" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 312, 56 )
+
+[node name="area_drop_zone3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone9" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="area_drop_zone10" parent="." instance=ExtResource( 3 )]
+position = Vector2( 269, 293 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 79, -4 )
+texture = ExtResource( 5 )
+polygon = PoolVector2Array( 232, 58, 232, 358, 532, 358, 532, 58 )
