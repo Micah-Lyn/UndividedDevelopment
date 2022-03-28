@@ -29,7 +29,7 @@ func _on_Button_mouse_entered():
 	grab_focus()
 
 func _on_Button_Pressed():
-	if _le.text == "16":
+	if _le.text == "15":
 		_wd.popup()
 	print("Enter button was pressed")
 
