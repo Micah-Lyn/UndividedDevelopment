@@ -26,10 +26,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -135.0
-margin_top = -131.0
-margin_right = 192.0
-margin_bottom = 306.0
+margin_left = -160.406
+margin_top = -96.0041
+margin_right = 166.594
+margin_bottom = 340.996
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -100,6 +100,6 @@ __meta__ = {
 motion_mirroring = Vector2( 1440, 0 )
 
 [node name="CityBackground1" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( 386.885, 388.928 )
+position = Vector2( 361.479, 423.924 )
 scale = Vector2( 1.54996, 1.60726 )
 texture = ExtResource( 1 )
