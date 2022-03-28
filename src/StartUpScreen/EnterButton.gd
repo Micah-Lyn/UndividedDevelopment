@@ -9,7 +9,8 @@ extends Button
 export(bool) var start_focused = false
 
 # onready var _le = $UserAnswerLineEdit
-onready var _wd = $CorrectWindowDialog
+onready var _cwd = $CorrectWindowDialog
+onready var _iwd = $IncorrectWindowDialog
 
 onready var _le = get_parent().get_node("UserAnswerLineEdit")
 
@@ -30,7 +31,9 @@ func _on_Button_mouse_entered():
 
 func _on_Button_Pressed():
 	if _le.text == "15":
-		_wd.popup()
+		_cwd.popup_centered()
+	else:
+		_iwd.popup_centered()
 	print("Enter button was pressed")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
