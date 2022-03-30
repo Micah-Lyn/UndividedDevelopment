@@ -188,8 +188,11 @@ margin_left = 533.0
 margin_top = 415.0
 margin_right = 998.0
 margin_bottom = 500.0
+hint_tooltip = "Hint: Perimeter is the total length all the way around a shape. (Perimeter = Side + Side + Side)"
 custom_fonts/font = SubResource( 2 )
 align = 1
+caret_blink = true
+caret_blink_speed = 0.4
 __meta__ = {
 "_edit_use_anchors_": false
 }
