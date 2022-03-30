@@ -14,11 +14,11 @@ func _ready() -> void:
 	add_to_group(group)
 	rest_nodes = get_tree().get_nodes_in_group("zone")
 	rest_point = rest_nodes[0].global_position
-	rest_nodes[0].select()
+#	rest_nodes[0].select()
 
 func _physics_process(delta):
 	if not _dragging:
-		global_position = lerp(global_position, rest_point, 10 * delta)	
+		global_position = lerp(global_position, rest_point, 10 * delta)
 		
 func _input(event) -> void:
 	if not _dragging:
@@ -26,11 +26,12 @@ func _input(event) -> void:
 	
 	if event.is_action_released("ui_touch"):
 		_dragging = false
-		var shortest_dist = 75
+		var shortest_dist = 50
 		for child in rest_nodes:
 			var distance = global_position.distance_to(child.global_position)
-			if distance < shortest_dist:
+			if distance < shortest_dist and child.fill == false:
 					child.select()
+					get_node("CollisionPolygon2D").disabled = true
 					rest_point = child.global_position
 					shortest_dist = distance
 	
