@@ -9,6 +9,8 @@ var rest_nodes = []
 
 onready var _sprite := $Sprite
 
+onready var _ps = get_parent().get_node("PeppermintSound")
+
 # initializes the list of drop zones and sets the starting rest point to be the first drop zone
 func _ready() -> void:
 	add_to_group(group)
@@ -50,6 +52,8 @@ func _on_input_event(_viewport, event, _shape_idx) -> void:
 		if _is_on_top():
 			_dragging = true
 			_touch_position = event.position
+			
+			_ps.play()
 
 # identifies the sprite on the top of the stack
 func _is_on_top() -> bool:
