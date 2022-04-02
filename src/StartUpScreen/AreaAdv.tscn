@@ -1,10 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/Hardware.png" type="Texture" id=2]
 [ext_resource path="res://area_drop_zone.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Draggable_Area.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/clown.jpg" type="Texture" id=5]
 [ext_resource path="res://Draggable_Area.gd" type="Script" id=6]
 
 [node name="Node2D" type="Node2D"]
@@ -29,37 +28,94 @@ script = ExtResource( 6 )
 position = Vector2( 880, 285 )
 script = ExtResource( 6 )
 
+[node name="Area2D3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
+[node name="Area2D11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 880, 285 )
+script = ExtResource( 6 )
+
 [node name="area_drop_zone" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 110, 308 )
 
 [node name="area_drop_zone2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 312, 56 )
+position = Vector2( 282, 108 )
 
 [node name="area_drop_zone3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 282, 208 )
 
 [node name="area_drop_zone4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 282, 308 )
 
 [node name="area_drop_zone5" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 382, 108 )
 
 [node name="area_drop_zone6" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 382, 208 )
 
 [node name="area_drop_zone7" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 382, 308 )
 
 [node name="area_drop_zone8" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 482, 108 )
 
 [node name="area_drop_zone9" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 482, 208 )
 
 [node name="area_drop_zone10" parent="." instance=ExtResource( 3 )]
-position = Vector2( 269, 293 )
+position = Vector2( 482, 308 )
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-position = Vector2( 79, -4 )
-texture = ExtResource( 5 )
+[node name="ChallengeBox" type="Polygon2D" parent="."]
+z_index = -1
+color = Color( 0.628906, 0.282107, 0.0343933, 1 )
+antialiased = true
 polygon = PoolVector2Array( 232, 58, 232, 358, 532, 358, 532, 58 )
+
+[node name="Line2D" type="Line2D" parent="ChallengeBox"]
+points = PoolVector2Array( 332, 58, 332, 358 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="Line2D2" type="Line2D" parent="ChallengeBox"]
+points = PoolVector2Array( 432, 58, 432, 358 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="Line2D3" type="Line2D" parent="ChallengeBox"]
+points = PoolVector2Array( 232, 158, 532, 158 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="Line2D4" type="Line2D" parent="ChallengeBox"]
+points = PoolVector2Array( 232, 258, 532, 258 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
