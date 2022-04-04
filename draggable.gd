@@ -30,7 +30,7 @@ func _input(event) -> void:
 	if event.is_action_released("ui_touch"):
 		_dragging = false
 		# shortest distance is the pixel radius the sprite will chose a new rest point
-		var shortest_dist = 50
+		var shortest_dist = 35
 		# checks if in the radius of a drop zone, sets that zone as filled, and disables the collision box
 		for child in rest_nodes:
 			# checks distance of each node to where the mouse is
