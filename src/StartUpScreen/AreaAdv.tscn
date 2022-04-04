@@ -14,7 +14,7 @@
 [ext_resource path="res://assets/POP.mp3" type="AudioStream" id=12]
 
 [sub_resource type="DynamicFont" id=9]
-size = 35
+size = 23
 font_data = ExtResource( 5 )
 
 [sub_resource type="DynamicFont" id=10]
@@ -62,10 +62,10 @@ font_data = ExtResource( 5 )
 [node name="Node2D" type="Node2D"]
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
-margin_left = 807.0
-margin_top = 502.0
-margin_right = 901.0
-margin_bottom = 556.0
+margin_left = 899.0
+margin_top = 528.0
+margin_right = 993.0
+margin_bottom = 582.0
 
 [node name="ChallengeBackground" type="Sprite" parent="."]
 position = Vector2( 826, 300 )
@@ -74,81 +74,81 @@ z_index = -1
 texture = ExtResource( 2 )
 
 [node name="Area2D" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D5" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D6" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D7" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D8" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D9" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D10" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="Area2D11" parent="." instance=ExtResource( 4 )]
-position = Vector2( 185, 504 )
+position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
 [node name="area_drop_zone" parent="." instance=ExtResource( 3 )]
-position = Vector2( 229, 486 )
+position = Vector2( 832, 230 )
 
 [node name="area_drop_zone2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 129, 134 )
+position = Vector2( 408, 94 )
 
 [node name="area_drop_zone3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 129, 234 )
+position = Vector2( 408, 194 )
 
 [node name="area_drop_zone4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 129, 334 )
+position = Vector2( 408, 294 )
 
 [node name="area_drop_zone5" parent="." instance=ExtResource( 3 )]
-position = Vector2( 229, 134 )
+position = Vector2( 508, 94 )
 
 [node name="area_drop_zone6" parent="." instance=ExtResource( 3 )]
-position = Vector2( 229, 234 )
+position = Vector2( 508, 194 )
 
 [node name="area_drop_zone7" parent="." instance=ExtResource( 3 )]
-position = Vector2( 229, 334 )
+position = Vector2( 508, 294 )
 
 [node name="area_drop_zone8" parent="." instance=ExtResource( 3 )]
-position = Vector2( 329, 134 )
+position = Vector2( 608, 94 )
 
 [node name="area_drop_zone9" parent="." instance=ExtResource( 3 )]
-position = Vector2( 329, 234 )
+position = Vector2( 608, 194 )
 
 [node name="area_drop_zone10" parent="." instance=ExtResource( 3 )]
-position = Vector2( 329, 334 )
+position = Vector2( 608, 294 )
 
 [node name="ChallengeBox" type="Polygon2D" parent="."]
-position = Vector2( -153, 26 )
+position = Vector2( 126, -14 )
 z_index = -1
 color = Color( 0.628906, 0.282107, 0.0343933, 1 )
 antialiased = true
@@ -175,31 +175,31 @@ width = 5.0
 default_color = Color( 0, 0, 0, 1 )
 
 [node name="QuestionPromptBackground" type="ColorRect" parent="."]
-margin_left = 491.0
-margin_top = 103.0
-margin_right = 962.0
-margin_bottom = 376.0
+margin_left = 27.0
+margin_top = 404.0
+margin_right = 498.0
+margin_bottom = 516.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="AreaQuestionPrompt" type="RichTextLabel" parent="."]
-margin_left = 506.0
-margin_top = 111.0
-margin_right = 957.0
-margin_bottom = 370.0
+margin_left = 42.0
+margin_top = 410.0
+margin_right = 493.0
+margin_bottom = 513.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 9 )
-text = "The owner of the hardware store asks you to help pack the box on the left for a shipment. How many boxes can you fit at the bottom of this box? (What is the area of the bottom of the box?)"
+text = "The owner of the hardware store asks you to help place supplies on the pallet for a shipment. How many supplies can you fit on the pallet? (What is the area of the pallet?)"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="AreaUserAnswer" type="LineEdit" parent="."]
-margin_left = 491.0
-margin_top = 385.0
-margin_right = 962.0
-margin_bottom = 460.0
+margin_left = 524.0
+margin_top = 404.0
+margin_right = 995.0
+margin_bottom = 516.0
 custom_fonts/font = SubResource( 10 )
 align = 1
 caret_blink = true
@@ -208,10 +208,10 @@ __meta__ = {
 }
 
 [node name="HelpButton" type="Button" parent="."]
-margin_left = 567.0
-margin_top = 502.0
-margin_right = 661.0
-margin_bottom = 556.0
+margin_left = 404.0
+margin_top = 528.0
+margin_right = 498.0
+margin_bottom = 582.0
 custom_fonts/font = SubResource( 1 )
 text = "Help"
 script = ExtResource( 8 )
@@ -275,10 +275,10 @@ scale = Vector2( 2.14129, 2.14129 )
 texture = ExtResource( 9 )
 
 [node name="EnterButton" type="Button" parent="."]
-margin_left = 687.0
-margin_top = 502.0
-margin_right = 781.0
-margin_bottom = 556.0
+margin_left = 779.0
+margin_top = 528.0
+margin_right = 873.0
+margin_bottom = 582.0
 custom_fonts/font = SubResource( 5 )
 text = "Enter"
 script = ExtResource( 10 )
@@ -367,13 +367,13 @@ custom_fonts/normal_font = SubResource( 8 )
 text = "Good try. Sadly, you're out of attempts. Go ahead try another challenge."
 
 [node name="DragAndDropLabel" type="RichTextLabel" parent="."]
-margin_left = 136.0
-margin_top = 547.0
-margin_right = 324.0
-margin_bottom = 574.0
-custom_colors/default_color = Color( 0.0235294, 0.0941176, 0.639216, 1 )
+margin_left = 737.0
+margin_top = 280.0
+margin_right = 959.0
+margin_bottom = 307.0
+custom_colors/default_color = Color( 1, 1, 1, 1 )
 custom_fonts/normal_font = SubResource( 11 )
-text = "Drag and drop these boxes"
+text = "Drag and drop these supplies"
 __meta__ = {
 "_edit_use_anchors_": false
 }
