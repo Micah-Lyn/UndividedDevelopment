@@ -9,10 +9,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
-margin_left = 913.0
-margin_top = 524.0
-margin_right = 1007.0
-margin_bottom = 578.0
+margin_left = 889.0
+margin_top = 521.0
+margin_right = 983.0
+margin_bottom = 575.0
 
 [node name="ChallengeBackground" type="Sprite" parent="."]
 position = Vector2( 826, 300 )
