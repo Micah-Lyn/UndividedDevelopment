@@ -46,7 +46,7 @@ icon = ExtResource( 6 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv.tscn"
+reference_path = "res://src/StartUpScreen/FinalChallengePhase/FinalArea.tscn"
 
 [node name="PerimeterActivity2" parent="." instance=ExtResource( 1 )]
 margin_left = 242.822
