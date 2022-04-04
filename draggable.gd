@@ -41,6 +41,8 @@ func _input(event) -> void:
 					get_node("CollisionPolygon2D").disabled = true
 					rest_point = child.global_position
 					shortest_dist = distance
+					
+					_ps.play()
 
 	if event is InputEventMouseMotion:
 		position -= _touch_position - (event.position)

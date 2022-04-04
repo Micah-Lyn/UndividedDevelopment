@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/Hardware.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://src/StartUpScreen/HelpButton.gd" type="Script" id=8]
 [ext_resource path="res://assets/area_of_square.png" type="Texture" id=9]
 [ext_resource path="res://src/StartUpScreen/AreaAdvEnterButton.gd" type="Script" id=10]
+[ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=11]
+[ext_resource path="res://assets/POP.mp3" type="AudioStream" id=12]
 
 [sub_resource type="DynamicFont" id=9]
 size = 35
@@ -218,7 +220,6 @@ __meta__ = {
 }
 
 [node name="HelpWindowDialog" type="WindowDialog" parent="HelpButton"]
-visible = true
 margin_left = -537.0
 margin_top = -466.0
 margin_right = 431.0
@@ -376,5 +377,13 @@ text = "Drag and drop these boxes"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="PeppermintSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+
+[node name="SceneMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 11 )
+volume_db = 1.0
+autoplay = true
 
 [connection signal="pressed" from="HelpButton/HelpWindowDialog/YoutubeTutorialButton" to="HelpButton/HelpWindowDialog/YoutubeTutorialButton" method="_on_LinkButton_pressed"]
