@@ -59,7 +59,7 @@ font_data = ExtResource( 5 )
 size = 17
 font_data = ExtResource( 5 )
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D2" type="Node2D"]
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
 margin_left = 899.0
@@ -190,7 +190,7 @@ margin_right = 493.0
 margin_bottom = 513.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 9 )
-text = "The owner of the hardware store asks you to help place supplies on the pallet for a shipment. How many supplies can you fit on the pallet? (What is the area of the pallet?)"
+text = "Mr. Bob at the hardware store asks you to help place supplies on the pallet for a shipment. How many supplies can you fit on the pallet? (What is the area of the pallet?)"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -366,12 +366,21 @@ custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 8 )
 text = "Good try. Sadly, you're out of attempts. Go ahead try another challenge."
 
+[node name="DragAndDropBackground" type="ColorRect" parent="."]
+margin_left = 726.0
+margin_top = 274.0
+margin_right = 948.0
+margin_bottom = 301.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="DragAndDropLabel" type="RichTextLabel" parent="."]
 margin_left = 737.0
 margin_top = 280.0
 margin_right = 959.0
 margin_bottom = 307.0
-custom_colors/default_color = Color( 1, 1, 1, 1 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 11 )
 text = "Drag and drop these supplies"
 __meta__ = {
