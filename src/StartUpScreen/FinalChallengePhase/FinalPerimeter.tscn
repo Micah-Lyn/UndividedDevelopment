@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/city_hall_background.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 512, 303 )
+scale = Vector2( 1.05579, 1.03767 )
+texture = ExtResource( 1 )
