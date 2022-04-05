@@ -2,7 +2,7 @@
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/candystore.jpg" type="Texture" id=2]
-[ext_resource path="res://assets/foodstore.png" type="Texture" id=3]
+[ext_resource path="res://assets/soda_store_icon.jpg" type="Texture" id=3]
 [ext_resource path="res://assets/city_background.png" type="Texture" id=4]
 [ext_resource path="res://assets/hardwarestore.png" type="Texture" id=5]
 [ext_resource path="res://assets/cityhall.jpg" type="Texture" id=6]
