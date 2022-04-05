@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/candystore.jpg" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://assets/city_background.png" type="Texture" id=4]
 [ext_resource path="res://assets/hardwarestore.png" type="Texture" id=5]
 [ext_resource path="res://assets/cityhall.jpg" type="Texture" id=6]
+[ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=7]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 5, 70 )
@@ -145,7 +146,7 @@ icon = ExtResource( 3 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/VolumeAdv.tscn"
+reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="VolumeActivity2" parent="." instance=ExtResource( 1 )]
 margin_left = 675.822
@@ -161,7 +162,7 @@ icon = ExtResource( 3 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/VolumeAdv.tscn"
+reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="VolumeActivity3" parent="." instance=ExtResource( 1 )]
 margin_left = 271.822
@@ -177,7 +178,7 @@ icon = ExtResource( 3 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/VolumeAdv.tscn"
+reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="Back_Button" parent="." instance=ExtResource( 1 )]
 margin_left = 1381.15
@@ -193,3 +194,8 @@ margin_right = 826.584
 margin_bottom = 721.936
 text = "Start"
 reference_path = "res://src/StartUpScreen/StartAdv.tscn"
+
+[node name="SceneMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 7 )
+volume_db = 1.0
+autoplay = true
