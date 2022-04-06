@@ -9,8 +9,8 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="FinalCelebration" type="Sprite" parent="."]
-position = Vector2( 520, 298 )
-scale = Vector2( 1.89706, 1.63378 )
+position = Vector2( 510, 301 )
+scale = Vector2( 1.91177, 1.63378 )
 texture = ExtResource( 1 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="FinalCelebration"]

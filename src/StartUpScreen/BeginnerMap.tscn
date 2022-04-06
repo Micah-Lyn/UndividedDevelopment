@@ -102,7 +102,6 @@ margin_left = 1381.15
 margin_top = 733.196
 margin_right = 1475.15
 margin_bottom = 787.196
-reference_path = "res://src/StartUpScreen/Menu.tscn"
 
 [node name="Start" parent="." instance=ExtResource( 6 )]
 margin_left = 732.584

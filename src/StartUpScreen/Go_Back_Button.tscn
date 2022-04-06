@@ -18,5 +18,5 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/Menu.tscn"
 start_focused = true
