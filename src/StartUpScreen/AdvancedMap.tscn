@@ -34,10 +34,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Final" parent="." instance=ExtResource( 1 )]
-margin_left = 709.822
-margin_top = 4.52981
-margin_right = 864.822
-margin_bottom = 62.5298
+margin_left = 661.69
+margin_top = 1.50994
+margin_right = 816.69
+margin_bottom = 59.5099
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -116,10 +116,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
 
 [node name="Area3" parent="." instance=ExtResource( 1 )]
-margin_left = 682.822
-margin_top = 157.53
-margin_right = 887.822
-margin_bottom = 230.53
+margin_left = 658.655
+margin_top = 157.033
+margin_right = 863.655
+margin_bottom = 230.033
 custom_colors/font_color_disabled = Color( 0.956808, 0.14306, 0.0336378, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
 toggle_mode = true
@@ -149,10 +149,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="VolumeActivity2" parent="." instance=ExtResource( 1 )]
-margin_left = 675.822
-margin_top = 346.53
-margin_right = 883.83
-margin_bottom = 416.53
+margin_left = 661.69
+margin_top = 344.266
+margin_right = 869.698
+margin_bottom = 414.266
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -181,17 +181,17 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="Back_Button" parent="." instance=ExtResource( 1 )]
-margin_left = 1381.15
-margin_top = 733.196
-margin_right = 1475.15
-margin_bottom = 787.196
+margin_left = 1381.05
+margin_top = 712.691
+margin_right = 1475.05
+margin_bottom = 766.691
 reference_path = "res://src/StartUpScreen/"
 
 [node name="Start" parent="." instance=ExtResource( 1 )]
-margin_left = 732.584
-margin_top = 667.936
-margin_right = 826.584
-margin_bottom = 721.936
+margin_left = 689.007
+margin_top = 714.201
+margin_right = 783.007
+margin_bottom = 768.201
 text = "Start"
 reference_path = "res://src/StartUpScreen/StartAdv.tscn"
 

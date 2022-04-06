@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/city_background.png" type="Texture" id=1]
 [ext_resource path="res://assets/hardwarestore.png" type="Texture" id=2]
+[ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=3]
 [ext_resource path="res://assets/candystore.jpg" type="Texture" id=4]
 [ext_resource path="res://assets/cityhall.jpg" type="Texture" id=5]
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=6]
@@ -98,15 +99,19 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
 
 [node name="Back_Button" parent="." instance=ExtResource( 6 )]
-margin_left = 1381.15
-margin_top = 733.196
-margin_right = 1475.15
-margin_bottom = 787.196
+margin_left = 1381.05
+margin_top = 709.671
+margin_right = 1475.05
+margin_bottom = 763.671
 
 [node name="Start" parent="." instance=ExtResource( 6 )]
-margin_left = 732.584
-margin_top = 667.936
-margin_right = 826.584
-margin_bottom = 721.936
+margin_left = 736.054
+margin_top = 712.691
+margin_right = 830.054
+margin_bottom = 766.691
 text = "Start"
 reference_path = "res://src/StartUpScreen/StartAdv.tscn"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
