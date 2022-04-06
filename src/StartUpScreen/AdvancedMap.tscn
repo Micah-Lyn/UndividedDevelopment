@@ -50,10 +50,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/FinalChallengePhase/FinalArea.tscn"
 
 [node name="PerimeterActivity2" parent="." instance=ExtResource( 1 )]
-margin_left = 242.822
-margin_top = 348.53
-margin_right = 492.822
-margin_bottom = 421.53
+margin_left = 229.163
+margin_top = 348.796
+margin_right = 479.163
+margin_bottom = 421.796
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -66,10 +66,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="PerimeterActivity3" parent="." instance=ExtResource( 1 )]
-margin_left = 1029.82
-margin_top = 153.53
-margin_right = 1279.82
-margin_bottom = 226.53
+margin_left = 1077.52
+margin_top = 160.053
+margin_right = 1327.52
+margin_bottom = 233.053
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -82,10 +82,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Area1" parent="." instance=ExtResource( 1 )]
-margin_left = 325.822
-margin_top = 523.53
-margin_right = 530.822
-margin_bottom = 596.53
+margin_left = 230.681
+margin_top = 528.478
+margin_right = 435.681
+margin_bottom = 601.478
 custom_colors/font_color_disabled = Color( 0.956808, 0.14306, 0.0336378, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
 toggle_mode = true
@@ -133,10 +133,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
 
 [node name="VolumeActivity1" parent="." instance=ExtResource( 1 )]
-margin_left = 1027.82
-margin_top = 532.53
-margin_right = 1235.83
-margin_bottom = 602.53
+margin_left = 1100.29
+margin_top = 517.909
+margin_right = 1308.3
+margin_bottom = 587.909
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -165,10 +165,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/VolumeAdv2.tscn"
 
 [node name="VolumeActivity3" parent="." instance=ExtResource( 1 )]
-margin_left = 271.822
-margin_top = 147.53
-margin_right = 479.83
-margin_bottom = 217.53
+margin_left = 224.61
+margin_top = 144.954
+margin_right = 432.618
+margin_bottom = 214.954
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -186,14 +186,6 @@ margin_top = 712.691
 margin_right = 1475.05
 margin_bottom = 766.691
 reference_path = "res://src/StartUpScreen/"
-
-[node name="Start" parent="." instance=ExtResource( 1 )]
-margin_left = 689.007
-margin_top = 714.201
-margin_right = 783.007
-margin_bottom = 768.201
-text = "Start"
-reference_path = "res://src/StartUpScreen/StartAdv.tscn"
 
 [node name="SceneMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 7 )
