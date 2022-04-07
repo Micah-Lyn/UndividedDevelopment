@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/city_background.png" type="Texture" id=1]
 [ext_resource path="res://assets/hardwarestore.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://assets/cityhall.jpg" type="Texture" id=5]
 [ext_resource path="res://src/StartUpScreen/Go_Back_Button.tscn" type="PackedScene" id=6]
 [ext_resource path="res://assets/road_icon.png" type="Texture" id=7]
+[ext_resource path="res://assets/car.png" type="Texture" id=8]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2( 5, 70 )
@@ -22,11 +23,16 @@ position = Vector2( -26.0665, 12.1084 )
 scale = Vector2( 0.293649, 0.250025 )
 texture = ExtResource( 7 )
 
+[node name="Car" type="Sprite" parent="CityBackground"]
+position = Vector2( -9.47876, 128.651 )
+scale = Vector2( 0.19572, 0.181519 )
+texture = ExtResource( 8 )
+
 [node name="PerimeterActivity1" parent="." instance=ExtResource( 6 )]
 margin_left = 862.018
-margin_top = 493.75
+margin_top = 499.789
 margin_right = 1112.02
-margin_bottom = 566.75
+margin_bottom = 572.789
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -56,9 +62,9 @@ reference_path = "res://src/StartUpScreen/BeginnerFinal/PerimeterBeginner.tscn"
 
 [node name="PerimeterActivity2" parent="." instance=ExtResource( 6 )]
 margin_left = 440.115
-margin_top = 228.001
+margin_top = 215.921
 margin_right = 690.115
-margin_bottom = 301.001
+margin_bottom = 303.921
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
