@@ -19,20 +19,20 @@ scale = Vector2( 2.56176, 2.99285 )
 texture = ExtResource( 1 )
 
 [node name="RoadIcon" type="Sprite" parent="CityBackground"]
-position = Vector2( -26.0665, 12.1084 )
-scale = Vector2( 0.293649, 0.250025 )
+position = Vector2( 7.10903, 12.1084 )
+scale = Vector2( 0.389256, 0.250025 )
 texture = ExtResource( 7 )
 
 [node name="Car" type="Sprite" parent="CityBackground"]
-position = Vector2( -9.47876, 128.651 )
+position = Vector2( 16.5878, 130.669 )
 scale = Vector2( 0.19572, 0.181519 )
 texture = ExtResource( 8 )
 
 [node name="PerimeterActivity1" parent="." instance=ExtResource( 6 )]
-margin_left = 862.018
-margin_top = 499.789
-margin_right = 1112.02
-margin_bottom = 572.789
+margin_left = 1004.68
+margin_top = 496.77
+margin_right = 1254.68
+margin_bottom = 569.77
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -45,10 +45,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Final" parent="." instance=ExtResource( 6 )]
-margin_left = 676.866
-margin_top = 16.6093
-margin_right = 831.866
-margin_bottom = 74.6093
+margin_left = 767.924
+margin_top = 22.6491
+margin_right = 922.924
+margin_bottom = 80.6491
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -61,10 +61,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/BeginnerFinal/PerimeterBeginner.tscn"
 
 [node name="PerimeterActivity2" parent="." instance=ExtResource( 6 )]
-margin_left = 440.115
-margin_top = 215.921
-margin_right = 690.115
-margin_bottom = 303.921
+margin_left = 452.0
+margin_top = 222.0
+margin_right = 714.0
+margin_bottom = 310.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0.054902, 0.0431373, 0.0431373, 1 )
 toggle_mode = true
@@ -77,10 +77,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
 
 [node name="Area1" parent="." instance=ExtResource( 6 )]
-margin_left = 438.597
-margin_top = 501.299
-margin_right = 643.597
-margin_bottom = 574.299
+margin_left = 466.0
+margin_top = 501.0
+margin_right = 671.0
+margin_bottom = 571.0
 custom_colors/font_color_disabled = Color( 0.956808, 0.14306, 0.0336378, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
 toggle_mode = true
@@ -94,10 +94,10 @@ expand_icon = true
 reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
 
 [node name="Area2" parent="." instance=ExtResource( 6 )]
-margin_left = 857.465
-margin_top = 232.53
-margin_right = 1062.47
-margin_bottom = 305.53
+margin_left = 1009.23
+margin_top = 238.57
+margin_right = 1214.23
+margin_bottom = 311.57
 custom_colors/font_color_disabled = Color( 0.956808, 0.14306, 0.0336378, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
 toggle_mode = true
