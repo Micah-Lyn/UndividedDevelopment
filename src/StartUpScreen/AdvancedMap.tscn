@@ -187,7 +187,6 @@ margin_left = 1381.05
 margin_top = 712.691
 margin_right = 1475.05
 margin_bottom = 766.691
-reference_path = "res://src/StartUpScreen/"
 
 [node name="SceneMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 7 )

@@ -60,14 +60,13 @@ size = 17
 font_data = ExtResource( 5 )
 
 [node name="Node2D" type="Node2D"]
-visible = false
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
 margin_left = 899.0
 margin_top = 528.0
 margin_right = 993.0
 margin_bottom = 582.0
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/BeginnerMap.tscn"
 
 [node name="ChallengeBackground" type="Sprite" parent="."]
 position = Vector2( 826, 300 )

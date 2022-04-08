@@ -42,7 +42,7 @@ icon = ExtResource( 4 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
+reference_path = "res://src/StartUpScreen/PerimeterBeginner.tscn"
 
 [node name="Final" parent="." instance=ExtResource( 6 )]
 margin_left = 767.924
@@ -74,7 +74,7 @@ icon = ExtResource( 4 )
 flat = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/PerimeterAdv2.tscn"
+reference_path = "res://src/StartUpScreen/PerimeterBeginner.tscn"
 
 [node name="Area1" parent="." instance=ExtResource( 6 )]
 margin_left = 466.0
@@ -91,7 +91,7 @@ flat = true
 clip_text = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
+reference_path = "res://src/StartUpScreen/AreaBeginner.tscn"
 
 [node name="Area2" parent="." instance=ExtResource( 6 )]
 margin_left = 1009.23
@@ -108,7 +108,7 @@ flat = true
 clip_text = true
 align = 0
 expand_icon = true
-reference_path = "res://src/StartUpScreen/AreaAdv.tscn"
+reference_path = "res://src/StartUpScreen/AreaBeginner.tscn"
 
 [node name="Back_Button" parent="." instance=ExtResource( 6 )]
 margin_left = 1381.05

@@ -58,7 +58,6 @@ outline_color = Color( 0.0509804, 0.0431373, 0.0431373, 1 )
 font_data = ExtResource( 3 )
 
 [node name="Node2D2" type="Node2D"]
-visible = false
 
 [node name="SceneBackground" type="Sprite" parent="."]
 position = Vector2( -480, -68 )
@@ -72,7 +71,7 @@ margin_left = 902.0
 margin_top = 531.0
 margin_right = 996.0
 margin_bottom = 585.0
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/BeginnerMap.tscn"
 
 [node name="QuestionBackground" type="ColorRect" parent="."]
 margin_left = 37.0
