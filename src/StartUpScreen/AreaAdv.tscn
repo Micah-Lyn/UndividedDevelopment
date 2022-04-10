@@ -60,7 +60,6 @@ size = 17
 font_data = ExtResource( 5 )
 
 [node name="Node2D" type="Node2D"]
-visible = false
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
 margin_left = 899.0
