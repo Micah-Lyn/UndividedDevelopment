@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/garden.jpeg-f8fd5594b7f52c08e474b8a71392a5b3.stex"
+path="res://.import/VolumeFinal.png-afb387056e345d31f4c2ec1dfc160f42.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/garden.jpeg"
-dest_files=[ "res://.import/garden.jpeg-f8fd5594b7f52c08e474b8a71392a5b3.stex" ]
+source_file="res://assets/VolumeFinal.png"
+dest_files=[ "res://.import/VolumeFinal.png-afb387056e345d31f4c2ec1dfc160f42.stex" ]
 
 [params]
 
