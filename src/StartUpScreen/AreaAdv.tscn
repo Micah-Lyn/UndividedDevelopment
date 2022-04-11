@@ -60,7 +60,6 @@ size = 17
 font_data = ExtResource( 5 )
 
 [node name="Node2D" type="Node2D"]
-visible = false
 
 [node name="BackButton" parent="." instance=ExtResource( 1 )]
 margin_left = 899.0
@@ -119,60 +118,102 @@ script = ExtResource( 6 )
 position = Vector2( 830, 221 )
 script = ExtResource( 6 )
 
+[node name="Area2D12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
+[node name="Area2D13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
+[node name="Area2D14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
+[node name="Area2D15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
+[node name="Area2D16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
+[node name="Area2D17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 830, 221 )
+script = ExtResource( 6 )
+
 [node name="area_drop_zone" parent="." instance=ExtResource( 3 )]
 position = Vector2( 832, 230 )
 
 [node name="area_drop_zone2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 408, 94 )
+position = Vector2( 425, 85 )
 
 [node name="area_drop_zone3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 408, 194 )
+position = Vector2( 425, 185 )
 
 [node name="area_drop_zone4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 408, 294 )
+position = Vector2( 425, 285 )
 
 [node name="area_drop_zone5" parent="." instance=ExtResource( 3 )]
-position = Vector2( 508, 94 )
+position = Vector2( 525, 85 )
 
 [node name="area_drop_zone6" parent="." instance=ExtResource( 3 )]
-position = Vector2( 508, 194 )
+position = Vector2( 525, 185 )
 
 [node name="area_drop_zone7" parent="." instance=ExtResource( 3 )]
-position = Vector2( 508, 294 )
+position = Vector2( 525, 285 )
 
-[node name="area_drop_zone8" parent="." instance=ExtResource( 3 )]
-position = Vector2( 608, 94 )
+[node name="area_drop_zone11" parent="." instance=ExtResource( 3 )]
+position = Vector2( 325, 285 )
 
-[node name="area_drop_zone9" parent="." instance=ExtResource( 3 )]
-position = Vector2( 608, 194 )
+[node name="area_drop_zone12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 325, 185 )
 
-[node name="area_drop_zone10" parent="." instance=ExtResource( 3 )]
-position = Vector2( 608, 294 )
+[node name="area_drop_zone14" parent="." instance=ExtResource( 3 )]
+position = Vector2( 225, 185 )
 
-[node name="ChallengeBox" type="Polygon2D" parent="."]
-position = Vector2( 126, -14 )
+[node name="area_drop_zone15" parent="." instance=ExtResource( 3 )]
+position = Vector2( 125, 185 )
+
+[node name="area_drop_zone16" parent="." instance=ExtResource( 3 )]
+position = Vector2( 125, 285 )
+
+[node name="area_drop_zone17" parent="." instance=ExtResource( 3 )]
+position = Vector2( 225, 285 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 25, -15 )
 z_index = -1
-color = Color( 0.628906, 0.282107, 0.0343933, 1 )
-antialiased = true
-polygon = PoolVector2Array( 232, 58, 232, 358, 532, 358, 532, 58 )
+color = Color( 0.529412, 0.494118, 0.494118, 1 )
+polygon = PoolVector2Array( 50, 150, 50, 350, 550, 350, 550, 50, 350, 50, 350, 150 )
 
-[node name="Line2D" type="Line2D" parent="ChallengeBox"]
-points = PoolVector2Array( 332, 58, 332, 358 )
+[node name="Line2D" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 150, 150, 150, 350 )
 width = 5.0
 default_color = Color( 0, 0, 0, 1 )
 
-[node name="Line2D2" type="Line2D" parent="ChallengeBox"]
-points = PoolVector2Array( 432, 58, 432, 358 )
+[node name="Line2D2" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 250, 150, 250, 350 )
 width = 5.0
 default_color = Color( 0, 0, 0, 1 )
 
-[node name="Line2D3" type="Line2D" parent="ChallengeBox"]
-points = PoolVector2Array( 232, 158, 532, 158 )
+[node name="Line2D3" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 350, 150, 350, 350 )
 width = 5.0
 default_color = Color( 0, 0, 0, 1 )
 
-[node name="Line2D4" type="Line2D" parent="ChallengeBox"]
-points = PoolVector2Array( 232, 258, 532, 258 )
+[node name="Line2D4" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 450, 50, 450, 350 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="Line2D5" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 347, 150, 550, 150 )
+width = 5.0
+default_color = Color( 0, 0, 0, 1 )
+
+[node name="Line2D6" type="Line2D" parent="Polygon2D"]
+points = PoolVector2Array( 50, 250, 550, 250 )
 width = 5.0
 default_color = Color( 0, 0, 0, 1 )
 
@@ -180,7 +221,7 @@ default_color = Color( 0, 0, 0, 1 )
 margin_left = 27.0
 margin_top = 404.0
 margin_right = 498.0
-margin_bottom = 516.0
+margin_bottom = 490.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -192,7 +233,7 @@ margin_right = 493.0
 margin_bottom = 513.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 9 )
-text = "Mr. Bob at the hardware store asks you to help place supplies on the pallet for a shipment. How many supplies can you fit on the pallet? (What is the area of the pallet?)"
+text = "Ms. Kathy needs help filling up the warehouse with boxes. How many boxes will fit in the warehouse? (What is the area of the room?)"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -201,7 +242,7 @@ __meta__ = {
 margin_left = 524.0
 margin_top = 404.0
 margin_right = 995.0
-margin_bottom = 516.0
+margin_bottom = 492.0
 custom_fonts/font = SubResource( 10 )
 align = 1
 caret_blink = true
@@ -371,7 +412,7 @@ text = "Good try. Sadly, you're out of attempts. Go ahead try another challenge.
 [node name="DragAndDropBackground" type="ColorRect" parent="."]
 margin_left = 732.0
 margin_top = 274.0
-margin_right = 943.0
+margin_right = 926.0
 margin_bottom = 301.0
 __meta__ = {
 "_edit_use_anchors_": false
@@ -384,7 +425,7 @@ margin_right = 948.0
 margin_bottom = 307.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 11 )
-text = "Drag and drop these supplies"
+text = "Drag and drop these boxes"
 __meta__ = {
 "_edit_use_anchors_": false
 }
