@@ -66,7 +66,7 @@ margin_left = 899.0
 margin_top = 528.0
 margin_right = 993.0
 margin_bottom = 582.0
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/AdvancedMap2.tscn"
 
 [node name="ChallengeBackground" type="Sprite" parent="."]
 position = Vector2( 826, 300 )

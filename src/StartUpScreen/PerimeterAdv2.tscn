@@ -6,8 +6,8 @@
 [ext_resource path="res://src/StartUpScreen/EnterButton.gd" type="Script" id=4]
 [ext_resource path="res://src/StartUpScreen/LinkButton.gd" type="Script" id=5]
 [ext_resource path="res://drop_zone.tscn" type="PackedScene" id=6]
-[ext_resource path="res://DraggableSprite.tscn" type="PackedScene" id=7]
-[ext_resource path="res://assets/bigcookie.jpg" type="Texture" id=8]
+[ext_resource path="res://Draggable_GumDrop.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/gbhouse.jpeg" type="Texture" id=8]
 [ext_resource path="res://assets/white.png" type="Texture" id=9]
 [ext_resource path="res://src/StartUpScreen/HelpButton.gd" type="Script" id=10]
 [ext_resource path="res://assets/Triangle.png" type="Texture" id=11]
@@ -71,25 +71,25 @@ margin_left = 902.0
 margin_top = 531.0
 margin_right = 996.0
 margin_bottom = 585.0
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/AdvancedMap2.tscn"
 
 [node name="QuestionBackground" type="ColorRect" parent="."]
 margin_left = 37.0
-margin_top = 416.0
+margin_top = 439.0
 margin_right = 502.0
-margin_bottom = 501.0
+margin_bottom = 524.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="QuestionRichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 47.0
-margin_top = 423.0
-margin_right = 512.0
-margin_bottom = 508.0
+margin_left = 45.0
+margin_top = 448.0
+margin_right = 510.0
+margin_bottom = 533.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 1 )
-text = "Drag and drop peppermints onto the cookie. How many peppermints will fit the perimeter of the cookie?"
+text = "Drag and drop gum drops onto the gingerbread house. How many gum drops will fit the perimeter of the house?"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -204,126 +204,94 @@ __meta__ = {
 
 [node name="UserAnswerLineEdit" type="LineEdit" parent="."]
 margin_left = 533.0
-margin_top = 415.0
+margin_top = 439.0
 margin_right = 998.0
-margin_bottom = 500.0
+margin_bottom = 524.0
 custom_fonts/font = SubResource( 2 )
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Triangle" type="Polygon2D" parent="."]
-position = Vector2( 74, 25 )
+[node name="House" type="Polygon2D" parent="."]
+position = Vector2( 65, 27 )
 scale = Vector2( 0.855362, 0.855362 )
 z_index = -1
 texture = ExtResource( 8 )
-texture_offset = Vector2( -275, 0 )
-texture_scale = Vector2( 0.954, 0.821 )
-polygon = PoolVector2Array( 498, 7, 266, 408, 730, 408 )
+texture_offset = Vector2( -325, 0 )
+texture_scale = Vector2( 0.564, 0.481 )
+polygon = PoolVector2Array( 523.755, 24.551, 680, 200, 680, 440, 370, 440, 370, 200 )
+uv = PoolVector2Array( 523.755, 24.551, 683.921, 190.563, 685.09, 436.073, 365.927, 436.073, 364.758, 197.577 )
 
 [node name="drop_zone" parent="." instance=ExtResource( 6 )]
 position = Vector2( 840, 327 )
 
 [node name="drop_zone2" parent="." instance=ExtResource( 6 )]
-position = Vector2( 500, 32 )
+position = Vector2( 514, 46 )
 
 [node name="drop_zone3" parent="." instance=ExtResource( 6 )]
-position = Vector2( 301, 374 )
+position = Vector2( 381, 200 )
 
 [node name="drop_zone4" parent="." instance=ExtResource( 6 )]
-position = Vector2( 343, 303 )
+position = Vector2( 545, 82 )
 
 [node name="drop_zone5" parent="." instance=ExtResource( 6 )]
-position = Vector2( 422, 165 )
+position = Vector2( 581, 121 )
 
 [node name="drop_zone6" parent="." instance=ExtResource( 6 )]
-position = Vector2( 540, 99 )
+position = Vector2( 413, 161 )
 
 [node name="drop_zone7" parent="." instance=ExtResource( 6 )]
-position = Vector2( 578, 165 )
+position = Vector2( 481, 82 )
 
 [node name="drop_zone8" parent="." instance=ExtResource( 6 )]
-position = Vector2( 699, 374 )
+position = Vector2( 647, 198 )
 
 [node name="drop_zone9" parent="." instance=ExtResource( 6 )]
-position = Vector2( 619, 374 )
+position = Vector2( 615, 160 )
 
 [node name="drop_zone10" parent="." instance=ExtResource( 6 )]
-position = Vector2( 541, 374 )
+position = Vector2( 647, 248 )
 
 [node name="drop_zone11" parent="." instance=ExtResource( 6 )]
-position = Vector2( 457, 374 )
+position = Vector2( 381, 300 )
 
 [node name="drop_zone12" parent="." instance=ExtResource( 6 )]
-position = Vector2( 379, 374 )
+position = Vector2( 380, 351 )
 
 [node name="drop_zone13" parent="." instance=ExtResource( 6 )]
-position = Vector2( 382, 236 )
+position = Vector2( 381, 250 )
 
 [node name="drop_zone14" parent="." instance=ExtResource( 6 )]
-position = Vector2( 460, 99 )
+position = Vector2( 447, 121 )
 
 [node name="drop_zone15" parent="." instance=ExtResource( 6 )]
-position = Vector2( 658, 303 )
+position = Vector2( 380, 402 )
 
 [node name="drop_zone16" parent="." instance=ExtResource( 6 )]
-position = Vector2( 619, 236 )
+position = Vector2( 646, 300 )
 
-[node name="Area2D" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone17" parent="." instance=ExtResource( 6 )]
+position = Vector2( 647, 352 )
 
-[node name="Area2D2" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone18" parent="." instance=ExtResource( 6 )]
+position = Vector2( 648, 402 )
 
-[node name="Area2D3" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone19" parent="." instance=ExtResource( 6 )]
+position = Vector2( 593, 402 )
 
-[node name="Area2D4" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone20" parent="." instance=ExtResource( 6 )]
+position = Vector2( 536, 402 )
 
-[node name="Area2D5" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone21" parent="." instance=ExtResource( 6 )]
+position = Vector2( 483, 403 )
 
-[node name="Area2D6" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D7" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D8" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D9" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D10" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D11" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D12" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D13" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D14" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D15" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D16" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
-
-[node name="Area2D17" parent="." instance=ExtResource( 7 )]
-position = Vector2( 912, 322 )
+[node name="drop_zone22" parent="." instance=ExtResource( 6 )]
+position = Vector2( 430, 402 )
 
 [node name="PeppermintBackground" type="Sprite" parent="."]
 position = Vector2( 840, 326 )
-scale = Vector2( 0.491111, 0.491111 )
+scale = Vector2( 0.317538, 0.317538 )
 z_index = -1
 texture = ExtResource( 9 )
 script = ExtResource( 14 )
@@ -401,5 +369,55 @@ texture = ExtResource( 11 )
 stream = ExtResource( 12 )
 volume_db = 1.0
 autoplay = true
+
+[node name="Area2D" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D2" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D3" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D4" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D5" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D6" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D7" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D8" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D9" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D10" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D11" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D12" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D13" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D14" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D15" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D16" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D17" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D18" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D19" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D20" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D21" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D22" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D23" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D24" parent="." instance=ExtResource( 7 )]
+
+[node name="Area2D25" parent="." instance=ExtResource( 7 )]
 
 [connection signal="pressed" from="HelpButton/HelpWindowDialog/YoutubeTutorialButton" to="HelpButton/HelpWindowDialog/YoutubeTutorialButton" method="_on_LinkButton_pressed"]

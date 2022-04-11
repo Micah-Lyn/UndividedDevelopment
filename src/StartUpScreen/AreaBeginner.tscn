@@ -9,7 +9,7 @@
 [ext_resource path="res://src/StartUpScreen/AreaAdvLinkButton.gd" type="Script" id=7]
 [ext_resource path="res://src/StartUpScreen/HelpButton.gd" type="Script" id=8]
 [ext_resource path="res://assets/area_of_square.png" type="Texture" id=9]
-[ext_resource path="res://src/StartUpScreen/AreaAdvEnterButton.gd" type="Script" id=10]
+[ext_resource path="res://src/StartUpScreen/AreaBeginnerEnterButton.gd" type="Script" id=10]
 [ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=11]
 [ext_resource path="res://assets/POP.mp3" type="AudioStream" id=12]
 
