@@ -9,7 +9,7 @@
 [ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=7]
 [ext_resource path="res://assets/road.png" type="Texture" id=8]
 [ext_resource path="res://assets/car.png" type="Texture" id=9]
-[ext_resource path="res://src/StartUpScreen/AdvMap].gd" type="Script" id=10]
+[ext_resource path="res://src/StartUpScreen/AdvMapCode.gd" type="Script" id=10]
 [ext_resource path="res://assets/CALIBRI.TTF" type="DynamicFontData" id=11]
 
 [sub_resource type="DynamicFont" id=1]
