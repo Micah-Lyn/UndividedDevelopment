@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/city_hall_background.png" type="Texture" id=1]
 [ext_resource path="res://assets/font_default.tres" type="DynamicFont" id=2]
 [ext_resource path="res://src/StartUpScreen/FinalChallengePhase/Button.gd" type="Script" id=3]
-[ext_resource path="res://assets/VolumeFinal.png" type="Texture" id=4]
+[ext_resource path="res://assets/FinalVolume.png" type="Texture" id=4]
 [ext_resource path="res://assets/CALIBRI.TTF" type="DynamicFontData" id=5]
 [ext_resource path="res://assets/CandyMusic.mp3" type="AudioStream" id=6]
 [ext_resource path="res://src/StartUpScreen/FinalChallengePhase/FinalVolume.gd" type="Script" id=7]
@@ -62,19 +62,8 @@ __meta__ = {
 }
 reference_path = "res://src/StartUpScreen/FinalChallengePhase/FinalCelebration.tscn"
 
-[node name="ColorRect" type="ColorRect" parent="Sprite"]
-margin_left = 91.0
-margin_top = -281.0
-margin_right = 339.0
-margin_bottom = -26.0
-color = Color( 0.894118, 0.87451, 0.54902, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="VolumeFinal" type="Sprite" parent="Sprite"]
-position = Vector2( 212.961, -155.11 )
-scale = Vector2( 1.08544, 1.06152 )
+[node name="FinalVolume" type="Sprite" parent="."]
+position = Vector2( 731, 126 )
 texture = ExtResource( 4 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
@@ -111,7 +100,7 @@ margin_top = 322.0
 margin_right = 407.0
 margin_bottom = 376.0
 custom_fonts/font = SubResource( 2 )
-text = "30 cu. m"
+text = "30 cu. cm"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -122,7 +111,7 @@ margin_top = 321.0
 margin_right = 743.0
 margin_bottom = 375.0
 custom_fonts/font = SubResource( 3 )
-text = "17 sq. ft."
+text = "20 cu. cm"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -133,7 +122,7 @@ margin_top = 425.0
 margin_right = 406.0
 margin_bottom = 481.0
 custom_fonts/font = SubResource( 4 )
-text = "10 sq. ft."
+text = "17 cu. cm"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -144,7 +133,7 @@ margin_top = 428.0
 margin_right = 745.0
 margin_bottom = 476.0
 custom_fonts/font = SubResource( 5 )
-text = "26 sq. ft."
+text = "100 cu. cm"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -237,3 +226,8 @@ text = "Great job! You completed this stage. Move on to the next stage on the ma
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[connection signal="pressed" from="Option1" to="." method="_on_Option1_pressed"]
+[connection signal="pressed" from="Option2" to="." method="_on_Option2_pressed"]
+[connection signal="pressed" from="Option3" to="." method="_on_Option3_pressed"]
+[connection signal="pressed" from="Option4" to="." method="_on_Option4_pressed"]

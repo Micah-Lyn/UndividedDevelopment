@@ -27,14 +27,17 @@ func _ready():
 
 
 func _on_Option1_pressed():
+	if _Num_Attempts < 1:
+		_Num_Attempts = _Num_Attempts + 1
+		_wa.popup_centered()
+	else:
+		for button in ButtonArray:
+			button.disabled = true
+		
+		_Next.disabled = false
+		
+		_ooa.popup_centered()
 	
-	_ra.popup_centered()
-	
-	for button in ButtonArray:
-		button.disabled = true
-	_Next.disabled = false
-	
-
 
 func _on_Option2_pressed():
 	if _Num_Attempts < 1:
@@ -47,8 +50,9 @@ func _on_Option2_pressed():
 		_Next.disabled = false
 		
 		_ooa.popup_centered()
-
-
+		
+	
+	
 func _on_Option3_pressed():
 	if _Num_Attempts < 1:
 		_Num_Attempts = _Num_Attempts + 1
@@ -62,13 +66,8 @@ func _on_Option3_pressed():
 		_ooa.popup_centered()
 
 func _on_Option4_pressed():
-	if _Num_Attempts < 1:
-		_Num_Attempts = _Num_Attempts + 1
-		_wa.popup_centered()
-	else:
-		for button in ButtonArray:
-			button.disabled = true
-		
-		_Next.disabled = false
-		
-		_ooa.popup_centered()
+	_ra.popup_centered()
+	
+	for button in ButtonArray:
+		button.disabled = true
+	_Next.disabled = false
