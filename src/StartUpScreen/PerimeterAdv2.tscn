@@ -137,6 +137,7 @@ custom_fonts/normal_font = SubResource( 3 )
 text = "Great job! You completed this stage. Move on to the next stage on the map. You're doing great!"
 
 [node name="IncorrectWindowDialog" type="WindowDialog" parent="EnterButton"]
+visible = true
 margin_left = 294.0
 margin_top = -402.0
 margin_right = 755.0
