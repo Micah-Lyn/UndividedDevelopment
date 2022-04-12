@@ -57,12 +57,13 @@ margin_top = 523.0
 margin_right = 991.0
 margin_bottom = 583.0
 custom_fonts/font = SubResource( 1 )
+disabled = true
 text = "NEXT"
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-reference_path = "res://src/StartUpScreen/BeginnerFinal/AreaBeginner.tscn"
+reference_path = "res://src/StartUpScreen/BeginnerFinal/AreaBeginnerFinal.tscn"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )

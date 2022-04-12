@@ -68,6 +68,7 @@ icon = ExtResource( 5 )
 flat = true
 align = 0
 expand_icon = true
+reference_path = "res://src/StartUpScreen/BeginnerFinal/PeriBeginnerFinal.tscn"
 
 [node name="PerimeterActivity2" parent="." instance=ExtResource( 6 )]
 margin_left = 452.0
