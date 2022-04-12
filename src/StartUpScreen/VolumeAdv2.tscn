@@ -216,6 +216,7 @@ __meta__ = {
 }
 
 [node name="HelpWindowDialog" type="WindowDialog" parent="HelpButton"]
+visible = true
 margin_left = -368.0
 margin_top = -480.0
 margin_right = 600.0
