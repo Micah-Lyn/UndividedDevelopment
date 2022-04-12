@@ -212,6 +212,7 @@ margin_bottom = 766.691
 custom_fonts/font = SubResource( 1 )
 script = ExtResource( 12 )
 start_focused = false
+reference_path = ""
 
 [node name="ConfirmationDialog" type="ConfirmationDialog" parent="Back_Button"]
 margin_right = 400.0
