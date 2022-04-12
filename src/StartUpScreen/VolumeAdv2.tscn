@@ -167,6 +167,7 @@ margin_left = 900.111
 margin_top = 528.24
 margin_right = 994.111
 margin_bottom = 582.24
+disabled = true
 reference_path = "res://src/StartUpScreen/AdvancedMap2.tscn"
 
 [node name="QuestionPromptBackground" type="ColorRect" parent="."]

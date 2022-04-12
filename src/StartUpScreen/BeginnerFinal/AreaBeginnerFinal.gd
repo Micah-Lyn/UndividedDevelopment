@@ -3,7 +3,7 @@ extends Node2D
 
 var ButtonArray = []
 
-onready var _Next = $Sprite/Button
+onready var _Next = $Button
 
 onready var _wa = $WrongAns
 onready var _ra = $RightAns

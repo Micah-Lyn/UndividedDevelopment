@@ -37,7 +37,7 @@ func _on_Button_Pressed():
 	
 	numAttempts = numAttempts + 1
 	
-	if _le.text == "21":
+	if _le.text == "15":
 		_cwd.popup_centered()
 		self.disabled = true
 		_back.disabled = false
