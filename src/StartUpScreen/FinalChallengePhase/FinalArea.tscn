@@ -90,7 +90,7 @@ custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_colors/selection_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 1 )
-text = "The given figure is composed up of unit squares. Find the area of the figure. (Note: Unit square have area of 1 unit)"
+text = "The given figure is composed up of unit squares. Find the area of the figure. (Note: Unit squares have area of 1 unit)"
 __meta__ = {
 "_edit_use_anchors_": false
 }

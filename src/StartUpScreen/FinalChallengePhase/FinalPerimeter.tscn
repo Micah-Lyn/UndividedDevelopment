@@ -117,7 +117,7 @@ custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_colors/selection_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 2 )
-text = "The given is hexagon with 9 cm length. Find the perimeter of the hexagon."
+text = "The given figure is a hexagon with 9 cm length. Find the perimeter of the hexagon."
 __meta__ = {
 "_edit_use_anchors_": false
 }
