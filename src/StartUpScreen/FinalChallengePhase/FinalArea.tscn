@@ -75,22 +75,22 @@ autoplay = true
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 30.0
 margin_top = 96.0
-margin_right = 502.0
-margin_bottom = 206.0
+margin_right = 553.0
+margin_bottom = 208.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 44.0
-margin_top = 104.0
-margin_right = 505.0
-margin_bottom = 214.0
+margin_left = 36.0
+margin_top = 98.0
+margin_right = 552.0
+margin_bottom = 208.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_colors/selection_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 1 )
-text = "The given figure is composed up of unit squares. Find the area of the figure."
+text = "The given figure is composed up of unit squares. Find the area of the figure. (Note: Unit square have area of 1 unit)"
 __meta__ = {
 "_edit_use_anchors_": false
 }
