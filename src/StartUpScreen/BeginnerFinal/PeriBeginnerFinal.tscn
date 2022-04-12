@@ -77,7 +77,7 @@ texture = ExtResource( 5 )
 margin_left = 17.0
 margin_top = 103.0
 margin_right = 65.0
-margin_bottom = 118.0
+margin_bottom = 115.0
 rect_scale = Vector2( 12.7824, 5.09583 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -87,12 +87,12 @@ __meta__ = {
 margin_left = 27.0
 margin_top = 107.0
 margin_right = 627.0
-margin_bottom = 185.0
+margin_bottom = 163.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_colors/selection_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 2 )
-text = "Length of the square is 6 ft. What is the area of the given square?"
+text = "Find the perimeter of the given trapezoid."
 __meta__ = {
 "_edit_use_anchors_": false
 }
