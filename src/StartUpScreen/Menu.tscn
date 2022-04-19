@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/city_background1.jpg" type="Texture" id=1]
 [ext_resource path="res://assets/M-city.png" type="Texture" id=2]
 [ext_resource path="res://assets/CALIBRI.TTF" type="DynamicFontData" id=3]
-[ext_resource path="res://src/StartUpScreen/button_script.gd" type="Script" id=4]
+[ext_resource path="res://src/scripts/button_script.gd" type="Script" id=4]
 
 [sub_resource type="Theme" id=1]
 
@@ -54,7 +54,7 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-reference_path = "res://src/StartUpScreen/BeginnerMap.tscn"
+reference_path = "res://src/StartUpScreen/BeginnerChallenge/BeginnerMap.tscn"
 start_focused = true
 
 [node name="Advanced Button" type="Button" parent="VBoxContainer"]
@@ -74,7 +74,7 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-reference_path = "res://src/StartUpScreen/AdvancedMap.tscn"
+reference_path = "res://src/StartUpScreen/AdvancedChallenge/AdvancedMap.tscn"
 
 [node name="Quit Button" type="Button" parent="VBoxContainer"]
 light_mask = 3
