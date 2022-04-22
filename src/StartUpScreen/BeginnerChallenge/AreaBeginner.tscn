@@ -289,6 +289,7 @@ __meta__ = {
 }
 
 [node name="CorrectWindowDialog" type="WindowDialog" parent="EnterButton"]
+visible = true
 margin_left = -719.0
 margin_top = -486.0
 margin_right = -183.0

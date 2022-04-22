@@ -56,10 +56,11 @@ texture = ExtResource( 1 )
 [node name="Button" type="Button" parent="Sprite"]
 margin_left = 324.875
 margin_top = 227.433
-margin_right = 430.875
-margin_bottom = 267.433
+margin_right = 469.875
+margin_bottom = 284.433
 custom_fonts/font = ExtResource( 2 )
-text = "NEXT"
+disabled = true
+text = "Next"
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -125,8 +126,8 @@ __meta__ = {
 [node name="Option1" type="Button" parent="." groups=["AnswerButtons"]]
 margin_left = 261.0
 margin_top = 322.0
-margin_right = 407.0
-margin_bottom = 376.0
+margin_right = 406.0
+margin_bottom = 377.0
 custom_fonts/font = SubResource( 3 )
 text = "50 cm"
 __meta__ = {
@@ -136,8 +137,8 @@ __meta__ = {
 [node name="Option2" type="Button" parent="." groups=["AnswerButtons"]]
 margin_left = 599.0
 margin_top = 321.0
-margin_right = 743.0
-margin_bottom = 375.0
+margin_right = 744.0
+margin_bottom = 376.0
 custom_fonts/font = SubResource( 4 )
 text = "54 cm"
 __meta__ = {
@@ -148,7 +149,7 @@ __meta__ = {
 margin_left = 261.0
 margin_top = 425.0
 margin_right = 406.0
-margin_bottom = 481.0
+margin_bottom = 480.0
 custom_fonts/font = SubResource( 5 )
 text = "53 cm"
 __meta__ = {
@@ -158,8 +159,8 @@ __meta__ = {
 [node name="Option4" type="Button" parent="." groups=["AnswerButtons"]]
 margin_left = 606.0
 margin_top = 428.0
-margin_right = 745.0
-margin_bottom = 476.0
+margin_right = 751.0
+margin_bottom = 483.0
 custom_fonts/font = SubResource( 6 )
 text = "48 cm"
 __meta__ = {

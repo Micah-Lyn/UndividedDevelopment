@@ -3,7 +3,7 @@ extends Node2D
 
 var ButtonArray = []
 
-onready var _Next = $NETXButton
+onready var _Next = $NEXTButton
 
 onready var _wa = $WrongAns
 onready var _ra = $RightAns
