@@ -5,9 +5,9 @@ var ButtonArray = []
 
 onready var _Next = $Button
 
-onready var _wa = $WrongAns
-onready var _ra = $RightAns
-onready var _ooa = $OutofAttempts
+onready var _wa = $IncorrectWindowDialog
+onready var _ra = $CorrectWindowDialog
+onready var _ooa = $NoAttemptsWindowDialog
 
 # onready var _wa = get_parent().get_node("WrongAns")
 # onready var _ra = get_parent().get_node("RightAns")

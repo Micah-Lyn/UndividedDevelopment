@@ -29,11 +29,11 @@ font_data = ExtResource( 5 )
 size = 30
 font_data = ExtResource( 5 )
 
-[sub_resource type="DynamicFont" id=7]
-size = 30
+[sub_resource type="DynamicFont" id=6]
+size = 25
 font_data = ExtResource( 5 )
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="DynamicFont" id=7]
 size = 30
 font_data = ExtResource( 5 )
 
@@ -139,94 +139,88 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="WrongAns" type="WindowDialog" parent="."]
-margin_left = 330.0
-margin_top = 246.0
-margin_right = 683.0
-margin_bottom = 457.0
-window_title = "Good Try!"
+[node name="CorrectWindowDialog" type="WindowDialog" parent="."]
+margin_left = -719.0
+margin_top = -486.0
+margin_right = -183.0
+margin_bottom = -314.0
+window_title = "-- Correct --"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ColorRect" type="ColorRect" parent="WrongAns"]
-margin_right = 353.0
-margin_bottom = 209.0
+[node name="CorrectColorRect" type="ColorRect" parent="CorrectWindowDialog"]
+margin_right = 536.0
+margin_bottom = 172.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="RichTextLabel" type="RichTextLabel" parent="WrongAns"]
-margin_left = 58.0
-margin_top = 58.0
-margin_right = 370.0
-margin_bottom = 198.0
+[node name="CorrectRichTextLabel" type="RichTextLabel" parent="CorrectWindowDialog"]
+anchor_left = 0.118
+anchor_top = 0.174
+anchor_right = 0.118
+anchor_bottom = 0.174
+margin_left = -28.248
+margin_top = 9.072
+margin_right = 433.752
+margin_bottom = 92.072
 custom_colors/default_color = Color( 0, 0, 0, 1 )
-custom_colors/selection_color = Color( 0, 0, 0, 1 )
-custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 6 )
+text = "Great job! You completed this stage. Move on to the next stage. You're doing great!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IncorrectWindowDialog" type="WindowDialog" parent="."]
+margin_left = 294.0
+margin_top = -402.0
+margin_right = 755.0
+margin_bottom = -201.0
+window_title = "-- Incorrect --"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IncorrectColorRect" type="ColorRect" parent="IncorrectWindowDialog"]
+margin_right = 460.0
+margin_bottom = 200.0
+
+[node name="IncorrectRichTextLabel" type="RichTextLabel" parent="IncorrectWindowDialog"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -167.5
+margin_top = -57.0
+margin_right = 167.5
+margin_bottom = 57.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 7 )
 text = "Good try...give it another shot. "
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="OutofAttempts" type="WindowDialog" parent="."]
-margin_left = 332.0
-margin_top = 245.0
-margin_right = 683.0
-margin_bottom = 458.0
-window_title = "Good Try!"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="NoAttemptsWindowDialog" type="WindowDialog" parent="."]
+margin_left = 301.0
+margin_top = -114.0
+margin_right = 762.0
+margin_bottom = 87.0
+window_title = "-- Out of Attempts --"
 
-[node name="ColorRect" type="ColorRect" parent="OutofAttempts"]
-margin_top = -2.0
-margin_right = 353.0
-margin_bottom = 215.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="NoAttemptsColorRect" type="ColorRect" parent="NoAttemptsWindowDialog"]
+margin_right = 460.0
+margin_bottom = 200.0
 
-[node name="RichTextLabel" type="RichTextLabel" parent="OutofAttempts"]
-margin_left = 28.0
-margin_top = 44.0
-margin_right = 356.0
-margin_bottom = 219.0
+[node name="NoAttemptsRichTextLabel" type="RichTextLabel" parent="NoAttemptsWindowDialog"]
+margin_left = 54.0
+margin_top = 40.0
+margin_right = 404.0
+margin_bottom = 160.0
 custom_colors/default_color = Color( 0, 0, 0, 1 )
-custom_colors/selection_color = Color( 0, 0, 0, 1 )
-custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
-custom_fonts/normal_font = SubResource( 6 )
-text = "Good try. Sadly, you're out of attempts. Go ahead try another challenge."
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="RightAns" type="WindowDialog" parent="."]
-margin_left = 837.0
-margin_top = 325.0
-margin_right = 1188.0
-margin_bottom = 539.0
-window_title = "Great Job!"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="ColorRect" type="ColorRect" parent="RightAns"]
-margin_left = -2.0
-margin_right = 353.0
-margin_bottom = 218.0
-
-[node name="RichTextLabel" type="RichTextLabel" parent="RightAns"]
-margin_left = 17.0
-margin_top = 46.0
-margin_right = 350.0
-margin_bottom = 177.0
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-custom_colors/selection_color = Color( 0, 0, 0, 1 )
-custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_fonts/normal_font = SubResource( 8 )
-text = "Great job! You completed this stage. Move on to the next stage on the map. You're doing great!"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+text = "Good try. Sadly, you're out of attempts. Click the Next button to move on."
 
 [connection signal="pressed" from="Option1" to="." method="_on_Option1_pressed"]
 [connection signal="pressed" from="Option2" to="." method="_on_Option2_pressed"]
